@@ -7,5 +7,6 @@ export * from './Text/Text';
 export * from './TextInput/TextInput';
 export * from './Form/FormPasswordInput';
 export * from './Form/FormTextInput';
-export * from './TextInput/TextInput';
 export * from './PasswordInput/PasswordInput';
+export * from './Screen/Screen';
+export * from './Screen/components/ScreenContainer';
