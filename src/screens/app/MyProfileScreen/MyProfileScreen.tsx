@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Screen, Text} from '@components';
+import {Button, Screen, Text} from '@components';
 import {AppTabScreenProps} from '@routes';
 
 export function MyProfileScreen({
@@ -9,6 +9,7 @@ export function MyProfileScreen({
   return (
     <Screen>
       <Text>MyProfileScreen</Text>
+      <Button onPress={() => navigation.goBack()} title="mock" />
     </Screen>
   );
 }

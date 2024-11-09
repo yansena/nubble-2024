@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Screen, Text} from '@components';
+import {Button, Screen, Text} from '@components';
 import {AppTabScreenProps} from '@routes';
 
 export function FavoriteScreen({
@@ -9,6 +9,7 @@ export function FavoriteScreen({
   return (
     <Screen>
       <Text>FavoriteScreen</Text>
+      <Button onPress={() => navigation.goBack()} title="mock" />
     </Screen>
   );
 }
